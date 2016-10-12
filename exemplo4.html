@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <script src="js/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+
+      <a-assets>
+        <a-asset-item id="poke" src="obj/Pokeball.dae"></a-asset-item>
+      </a-assets>
+      <a-entity light="color: #FFF; intensity: 1.5" position="-1 1 0"></a-entity>
+      <a-collada-model src="#poke"></a-collada-model>
+      <a-sky color="#CCC"></a-sky>
+
+    </a-scene>
+  </body>
+</html>
